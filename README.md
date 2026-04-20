@@ -110,6 +110,71 @@ Client → REST API → Database
 * Observability through execution logs
 
 ---
+## Deployment (AWS EC2)
+
+The application was deployed on an AWS EC2 instance to simulate a real-world production environment with manual server setup and configuration.
+
+### Infrastructure Setup
+
+* Launched an Ubuntu-based EC2 instance using AWS EC2
+* Configured Security Groups to allow:
+
+  * SSH (Port 22)
+  * HTTP (Port 80)
+  * Application traffic (Port 8080)
+
+### Server Configuration
+
+* Installed Java (OpenJDK 17) and Maven
+* Cloned the project from GitHub
+* Built the application using Maven (`mvn clean install -DskipTests`)
+
+### Database Setup
+
+* Installed MySQL on the EC2 instance
+* Created a dedicated database:
+
+  * `job_scheduler`
+* Created a separate database user with appropriate privileges for secure access
+
+### Application Configuration
+
+* Configured database connectivity in `application.properties`
+* Enabled JPA auto schema update for table creation
+
+### Application Deployment
+
+* Packaged the application as a JAR file
+* Deployed using:
+
+  ```
+  java -jar target/jobscheduler-0.0.1-SNAPSHOT.jar
+  ```
+* Ensured continuous execution using:
+
+  ```
+  nohup java -jar target/jobscheduler-0.0.1-SNAPSHOT.jar &
+  ```
+
+### Access
+
+The application is accessible via:
+
+```
+http://http://44.200.184.161:8080/jobs
+```
+
+### Screenshots
+<img width="1087" height="694" alt="image" src="https://github.com/user-attachments/assets/83c30743-d3a3-44e2-b4a6-e5a691c38793" />
+<img width="1077" height="844" alt="image" src="https://github.com/user-attachments/assets/4a612881-3c20-4431-bd5b-8487040e545e" />
+
+
+### Notes
+
+* The EC2 instance is stopped when not in use to optimize cost
+* The deployment demonstrates manual server provisioning, backend deployment, and database integration in a cloud environment
+
+---
 
 ## Future Improvements
 
@@ -117,7 +182,6 @@ Client → REST API → Database
 * Integration with message queues (Kafka/RabbitMQ)
 * Distributed worker system
 * Authentication and user-specific jobs
-* Cloud deployment (AWS / Render / Railway)
 
 ---
 
