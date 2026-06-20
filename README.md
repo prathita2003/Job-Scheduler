@@ -161,7 +161,7 @@ The application was deployed on an AWS EC2 instance to simulate a real-world pro
 The application is accessible via:
 
 ```
-http://http://44.200.184.161:8080/jobs
+http://44.200.184.161:8080/jobs
 ```
 
 ### Screenshots
