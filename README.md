@@ -125,7 +125,7 @@ The application was deployed on an AWS EC2 instance to simulate a real-world pro
 
 ### Server Configuration
 
-* Installed Java (OpenJDK 17) and Maven
+* Installed Java (OpenJDK 21) and Maven
 * Cloned the project from GitHub
 * Built the application using Maven (`mvn clean install -DskipTests`)
 
@@ -161,7 +161,7 @@ The application was deployed on an AWS EC2 instance to simulate a real-world pro
 The application is accessible via:
 
 ```
-http://44.200.184.161:8080/jobs
+http://44.220.44.32:8080/jobs
 ```
 
 ### Screenshots
