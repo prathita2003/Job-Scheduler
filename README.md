@@ -69,11 +69,11 @@ Client → REST API → Database
 
 ### Create Job
 
-<img width="1072" height="726" alt="image" src="https://github.com/user-attachments/assets/91c605ff-52e7-4107-b6f0-5c228c3a2d1d" />
+<img width="640" height="320" alt="image" src="https://github.com/user-attachments/assets/91c605ff-52e7-4107-b6f0-5c228c3a2d1d" />
 
 ### Jobs Before Execution
 
-<img width="1090" height="691" alt="image" src="https://github.com/user-attachments/assets/a55dc79a-66b4-4b16-8f9f-3222bb53df6e" />
+<img width="640" height="320" alt="image" src="https://github.com/user-attachments/assets/a55dc79a-66b4-4b16-8f9f-3222bb53df6e" />
 
 ### Asynchronous Execution
 
@@ -81,23 +81,23 @@ Client → REST API → Database
 
 ### Jobs After Execution
 
-<img width="1082" height="793" alt="image" src="https://github.com/user-attachments/assets/17106f30-8fb0-41d8-88d2-e6a895a68278" />
+<img width="640" height="320" alt="image" src="https://github.com/user-attachments/assets/17106f30-8fb0-41d8-88d2-e6a895a68278" />
 
 ### Retry Mechanism
 
-<img width="1085" height="772" alt="image" src="https://github.com/user-attachments/assets/33db5a2e-d705-4f80-a197-0ed37a9f75ce" />
+<img width="640" height="320" alt="image" src="https://github.com/user-attachments/assets/33db5a2e-d705-4f80-a197-0ed37a9f75ce" />
 
 ### Execution Logs
 
-<img width="1090" height="883" alt="image" src="https://github.com/user-attachments/assets/b7c15526-021a-4b32-bd63-06de22ac3225" />
+<img width="640" height="320" alt="image" src="https://github.com/user-attachments/assets/b7c15526-021a-4b32-bd63-06de22ac3225" />
 
 ### Logs by Job ID
 
-<img width="1082" height="604" alt="image" src="https://github.com/user-attachments/assets/55972cb6-f0c4-4164-b86b-c15bc876245e" />
+<img width="640" height="320" alt="image" src="https://github.com/user-attachments/assets/55972cb6-f0c4-4164-b86b-c15bc876245e" />
 
 ### Delete Job
 
-<img width="940" height="452" alt="image" src="https://github.com/user-attachments/assets/38075072-e3bf-4912-a493-c524f6a838f1" />
+<img width="640" height="320" alt="image" src="https://github.com/user-attachments/assets/38075072-e3bf-4912-a493-c524f6a838f1" />
 
 ---
 
